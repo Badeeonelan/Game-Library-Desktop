@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 3px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.menu__item:visited {
+    color: var(--black);
+}
+
+.menu__counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    aspect-ratio: 1;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: 700;
+}

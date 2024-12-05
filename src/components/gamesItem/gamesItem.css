@@ -1,0 +1,64 @@
+.search-result__item {
+    justify-self: center;
+    width: 240px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-item__image-wrapper {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px 10px 0 0;
+    background-color: #B8B8B8;
+}
+
+.game-item__image {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.game-item__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px 15px;
+    flex-grow: 1;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 0 0 10px 10px;
+}
+
+.game-item__genre {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--gray);
+    margin-bottom: 4px;
+}
+
+.game-item__name {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.game-item__favourite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fafafa;
+    border-radius: 6px;
+    width: 36px;
+    height: 32px;
+    background: url('/static/favorite-white.svg') center no-repeat;
+}
+
+.favourite-active {
+    background: url('/static/favorites.svg') center no-repeat;
+    background-color: #fafafa;
+}

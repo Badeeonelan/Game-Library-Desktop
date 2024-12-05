@@ -1,0 +1,15 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}
+
+:root {
+    --black: #121212;
+    --white: #fafafa;
+    --gray: #dedede;
+}
+
+#root {
+    max-width: 800px;
+    margin-inline: auto;
+}

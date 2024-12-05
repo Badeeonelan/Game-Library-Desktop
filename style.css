@@ -1,0 +1,13 @@
+.selected {
+    background-color: darkred;
+}
+
+.warn {
+    color: red;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.display-none {
+    display: none;
+}
